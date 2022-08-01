@@ -1,0 +1,1164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URANUS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+    .body {
+        margin:0;
+        max-width: 1440px;
+    }    
+    .header {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .header__logo {
+        display:flex;
+        flex-direction: row;
+    }
+    .header__logo1 {
+        margin-top: 22px;
+        margin-left:137px;
+
+    }
+    .header__logo2 {
+        display:flex;
+        flex-direction: column;
+    }
+    .header__uranus {
+        margin-top: 22px;
+        margin-left:12px;
+        font-family: 'Bahnschrift';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 19px;
+    }
+    .header__sologan {
+        display:flex;
+        width: 155px;
+        height: 24px;
+        margin-top: 2px;
+        margin-left:12px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 24px;
+        letter-spacing: 0.01em;
+    }
+    .header__work {
+        margin-top: 32px;
+        margin-left: 248px;
+        width: 74px;
+        height: 21px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        text-decoration-line: underline;
+        color: #00A3FF;
+    }
+    .header__pricing {
+        margin-top: 32px;
+        margin-left: 46px;
+        width: 48px;
+        height: 21px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #000000;
+        
+    }
+    .header__business {
+        margin-top: 32px;
+        margin-left: 46px;
+        width: 61px;
+        height: 21px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #000000;
+        
+    }
+    .header__contact {
+        margin-top: 32px;
+        margin-left: 46px;
+        width: 57px;
+        height: 21px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #000000;
+        
+    }
+    .header__job {
+        margin-top: 32px;
+        margin-left: 46px;
+        width: 37px;
+        height: 21px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #000000;
+    
+    }
+    .button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 54px;
+        gap: 10px;
+        width: 186px;
+        height: 53px;
+        background: #00A3FF;
+        border-radius: 7px;
+        border:#00A3FF;
+        margin-top: 16px;
+        margin-left:50px;
+        margin-right:146px;
+        font-size: 13px;
+        font-family: 'Poppins';
+        font-style: normal;
+        color: #FFFFFF;
+    }
+    .main1 {
+        display:flex;
+        flex-direction: row;
+        position:relative;
+    }
+    .main1__left {
+        display:flex;
+        flex-direction: column;
+    }
+    .main1__left-1 {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 272px;
+        height: 18px;
+        margin-top:256px;
+        margin-left:146px;
+    }
+    .main1__left-1--work {
+        display:flex;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 97.5%;
+        letter-spacing: -0.02em;
+        color: #000000;
+    }
+    .main1__left-1--img {
+        display:flex;
+        margin-top:8px;
+        margin-bottom:8px;
+        margin-left:26px;
+        width: 216px;
+        height: 2px;
+        background: #00A3FF;
+    }
+    .main1__left-2 {
+        display:flex;
+        margin-top:26px;
+        margin-left:146px;
+        width: 272px;
+        height: 96px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 49px;
+        line-height: 97.5%;
+        letter-spacing: -0.02em;
+        color: #000000;
+    }
+    .main1__left-3 {
+        display:flex;
+        width: 351px;
+        height: 48px;
+        margin-top:17px;
+        margin-left:146px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.01em;
+        color: #5E688B;
+    }
+    .main1__left-4 {
+        display:flex;
+        margin-top:39px;
+        margin-left:146px;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 26px;
+        gap: 10px;
+        width: 130px;
+        height: 53px;
+        background: #FFFFFF;
+        border: 1.254px solid #00A3FF;
+        border-radius: 7px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-size: 13px;
+        line-height: 21px;
+        color: #00A3FF;
+    }
+    .main1__left-5 {
+        display:flex;
+        margin-top:119px;
+        margin-left:146px;
+    }
+    .main1__left-5-1 {
+        display:flex;
+        width: 8px;
+        height: 8px;
+        background: #00A3FF;
+    }
+    .main1__left-5-2 {
+        display:flex;
+        margin-left: 8px;
+        margin-right:8px;
+        width: 8px;
+        height: 8px;
+        background: #D9D9D9;
+    }
+    .main1__left-5-3 {
+        display:flex;
+        width: 8px;
+        height: 8px;
+        background: #D9D9D9;
+    }
+    .main1__cen {
+        width: 692px;
+        height: 550px;
+        display:flex;
+        position: absolute;
+        top:130px;
+        left:310px;
+        z-index: -1;
+    }
+    .main1__right {
+        display:flex;
+        flex-direction: column;
+    }
+    .main1__right--1 {
+        position: absolute;
+        width: 272px;
+        height: 265px;
+        left: 1022px;
+        top: 130px;
+    }
+    .main1__right--2 {
+        position: absolute;
+        width: 272px;
+        height: 265px;
+        left: 1022px;
+        top: 415px;
+    }
+    .main2 {
+        display:flex;
+        flex-direction: row;
+    }
+    .main2__img {
+        display:flex;
+        width: 216px;
+        height: 2px;
+        margin-left:146px;
+        margin-top:109px;
+        background: #00A3FF;
+    }
+    .main2__word {
+        width: 47px;
+        height: 18px;
+        margin-left: 26px;
+        margin-top: 101px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 97.5%;
+        letter-spacing: -0.02em;
+        color: #000000;
+    }
+    .main3 {
+        display:flex;
+        position:relative;
+    }
+    .main3__cen {
+        display:flex;
+        height: 361px;
+        margin-top:46px;
+        margin-left:146px;
+    }
+    .main3__right {
+        display:flex;
+        flex-direction: column;
+        position:absolute;
+        width: 292px;
+        height: 165px;
+        left: 1002px;
+        top: 242px;
+        background: #FFFFFF;
+    }
+    .main3__right-1 {
+        display:flex;
+        width: 272px;
+        height: 96px;
+        margin-left: 20px;
+        margin-top: 28px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 49px;
+        line-height: 97.5%;
+        letter-spacing: -0.02em;
+        color: #000000;
+    }
+    .main3__right-2 {
+        display:flex;
+        width: 293px;
+        height: 24px;
+        margin-left: 20px;
+        margin-top: 17px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.01em;
+        color: #5E688B;
+    }
+    .main4 {
+        display:flex;
+        flex-direction: row;
+        
+    }
+    .main4__left {
+        display:flex;
+        flex-direction: column;
+        margin-left:146px;
+        margin-top:30px;
+    }
+    .main4__left-2 {
+        display:flex;
+        margin-top:21px;
+        width: 272px;
+        height: 24px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24.5px;
+        line-height: 97.5%;
+        letter-spacing: -0.02em;
+        color: #000000;
+    }
+    .main4__left-3 {
+        display:flex;
+        width: 293px;
+        height: 24px;
+        margin-top: 14px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.01em;
+        color: #5E688B;
+    }
+    .main4__right {
+        display:flex;
+        flex-direction: column;
+        margin-left:20px;
+        margin-top:83px;
+    }
+    .main4__right-2 {
+        display:flex;
+        width: 272px;
+        height: 24px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24.5px;
+        line-height: 97.5%;
+        letter-spacing: -0.02em;
+        color: #000000;
+    }
+    .main4__right-3 {
+        margin-top: 14px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.01em;
+        color: #5E688B;
+    }
+    .main5 {
+        display:flex;
+        flex-direction: row;
+    }
+    .main5__left {
+        display:flex;
+        margin-top:63px;
+    }
+    .main5__right {
+        display:flex;
+        flex-direction: column;
+    }
+    .main5__right-1 {
+        display:flex;
+        margin-top:63px;
+        margin-left:20px;
+        width: 272px;
+        height: 24px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24.5px;
+        line-height: 97.5%;
+        letter-spacing: -0.02em;
+        color: #000000;
+    }
+    .main5__right-2 {
+        display:flex;
+        margin-top:17px;
+        margin-left:20px;
+        width: 272px;
+        height: 72px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.01em;
+        color: #5E688B;
+    }
+    .main6 {
+        display:flex;
+        flex-direction: row;
+        margin-top:51px;
+    }
+    .main6__left {
+        display:flex;
+        flex-direction: column;
+        margin-left:146px;
+    }
+    .main6__left-1 {
+        display:flex;
+        width: 272px;
+        height: 24px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24.5px;
+        line-height: 97.5%;
+        letter-spacing: -0.02em;
+        color: #000000;
+    }
+    .main6__left-2 {
+        display:flex;
+        margin-top:17px;
+        width: 272px;
+        height: 72px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.01em;
+        color: #5E688B;
+    }
+    .main6__right {
+        display:flex;
+        margin-left: 20px;
+        height: 273px;
+    }
+    .main7 {
+        text-align: center;
+        margin-top:83px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 49px;
+        line-height: 97.5%;
+        letter-spacing: -0.02em;
+        color: #000000;
+        margin-block: 0px;
+        margin-top: 83px;
+    }
+    .main8 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        letter-spacing: 0.01em;
+        color: #5E688B;
+        margin-block: 0px;
+        margin-top:17px;
+    }
+    .main9 {
+        display:flex;
+        flex-direction: row;
+        margin-left:267px;
+        margin-right:267px;
+        margin-top:57px;
+    }
+    .main9__left, .main9__cen, .main9__right {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main9__left-1, .main9__cen-1, .main9__right-1 {
+        display:flex;
+        width: 85px;
+        height: 85px;
+        margin-bottom: 19px;
+    }
+    .main9__left-2, .main9__cen-2, .main9__right-2 {
+        display:flex;
+        width: 96px;
+        height: 16px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 97.5%;
+        letter-spacing: -0.02em;
+        color: #000000;
+        margin-bottom: 19px;
+    }
+    .main9__left-3, .main9__cen-3, .main9__right-3 {
+        display:flex;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding: 4px 24px;
+        gap: 10px;
+        background: #00A3FF;
+        border-radius: 8px;
+        
+    }
+    .main9__left-4, .main9__cen-4, .main9__right-4 {
+        display:flex;
+        width: 272px;
+        height: 72px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.01em;
+        color: #5E688B;
+        margin-top:19px;
+    }
+    .main10 {
+        width: 272px;
+        height: 96px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 49px;
+        line-height: 97.5%;
+        letter-spacing: -0.02em;
+        margin-block: 0px;
+        margin-top:108px;
+        margin-left:142px;
+        color: #000000;
+    }
+    .main11 {
+        width: 293px;
+        height: 24px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.01em;
+        color: #5E688B;
+        margin-block: 0px;
+        margin-top:17px;
+        margin-left:142px;
+    }
+    .main12 {
+        display:flex;
+        flex-direction: row;
+        margin-top:48px;
+        margin-left:142px;
+    }
+    .main12__table1, .main12__table2 {
+        display:flex;
+        width:564px;
+        height:192px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 97.5%;
+        letter-spacing: -0.02em;
+        color: #000000;
+    }
+    .main12__table2 {
+        margin-left:24px;
+    }
+    .row, .row1 {
+        border-bottom: 1px solid #C5CFF3;
+    }
+    .row1 {
+        border-top: 1px solid #C5CFF3;
+    }
+    .main13 {
+        display:flex;
+        margin-top:62px;
+        margin-left:146px;
+        position:relative;
+    }
+    .main13__cen {
+        display:flex;
+        width: 1290px;
+        height: 517px;
+    }
+    .main13__left {
+        display:flex;
+        position:absolute;
+        top:0;
+        left:0;
+        flex-direction:column;
+        width: 406px;
+        height: 517px;
+        opacity: 0.55;
+        background: #000000;
+    }
+    .main13__left-1 {
+        display:flex;
+        flex-direction: row;
+        margin-top:176px;
+        margin-left:30px;
+    }
+    .main13__left-1-work {
+        display:flex;
+        width: 272px;
+        height: 18px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 97.5%;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+    }
+    .main13__left-1-img {
+        display:flex;
+        width: 216px;
+        height: 2px;
+        margin-top:8px;
+        margin-right:104px;
+        background: #00A3FF;
+    }
+    .main13__left-2 {
+        display:flex;
+        margin-top:19px;
+        margin-left:30px;
+        width: 414px;
+        height: 96px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 49px;
+        line-height: 97.5%;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+    }
+    .main13__left-3 {
+        display:flex;
+        margin-top:17px;
+        margin-left:30px;
+        width: 293px;
+        height: 24px;
+        left: 0px;
+        top: 113px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.01em;
+        color: #FFFFFF;
+    }
+    .main14 {
+        text-align: center;
+        margin-top:110px;
+        left: 475px;
+        top: 3962px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 49px;
+        line-height: 97.5%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #000000;
+    }
+    .main15 {
+        display:flex;
+        width: 557px;
+        height: 197px;
+        margin-top:39px;
+        margin-left:432px;
+    }
+    .main15-row1 {
+        border-bottom: 1px solid #C5CFF3;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #00A3FF;
+    }
+    .main15-row2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #B1B5C4;
+    }
+    .main16 {
+        text-align:center;
+        margin-top:124px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 49px;
+        line-height: 97.5%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #000000;
+    }
+    .main17 {
+        text-align:center;
+        margin-top:33px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.01em;
+        color: #5E688B;
+    }
+    .main18 {
+        text-align: center;
+        margin-left:623px;
+        width: 142px;
+        height: 21px;
+        padding:16px 26px;
+        color: #00A3FF;
+        margin-top:30px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        background: #FFFFFF;
+        border: 1.254px solid #00A3FF;
+        border-radius: 7px;
+    }
+    .footer {
+        display:flex;
+        flex-direction:row;
+        margin-left:76px;
+        margin-top:77px;
+        margin-right:75px;
+        background-color: #FAFAFA;
+        justify-content: space-between;
+        position:relative;
+        width: 1289px;
+        height: 440px;
+    }
+    .footer__left {
+        display:flex;
+        flex-direction:column;
+        position:absolute;
+        top:60px;
+        left:70px;
+        
+    }
+    .footer__left-1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 38px;
+        color: #2C2C2C;
+    }
+    .footer__left-2 {
+        display:flex;
+        flex-direction: row;
+        margin-top:34px;
+    }
+    .footer__left-2-logo {
+        display:flex;
+        background: #231F20;
+        margin-right: 12px;
+    }
+    .footer__left-2-uranus {
+        display:flex;
+        flex-direction: column;
+    }
+    .footer__left-2-uranus-1 {
+        display:flex;
+        font-family: 'Bahnschrift';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 19px;
+        color: #000000;
+    }
+    .footer__left-2-uranus-2 {
+        display:flex; 
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 24px;
+        letter-spacing: 0.01em;
+        color: #5E688B;
+    }
+    .footer__left-3 {
+        display:flex;
+        flex-direction: row;
+        margin-top:85px;
+    }
+    .footer__left-3-1 {
+        display:flex;
+        background: #2C2C2C
+    }
+    .footer__left-3-2 {
+        display:flex;
+        background: #2C2C2C;
+        margin-left:26px;
+    }
+    .footer__left-3-3 {
+        display:flex;
+        background: #2C2C2C;
+        margin-left:26px;
+    }
+    .footer__left-4 {
+        display:flex;
+        margin-top:99px;
+    }
+    .footer__cen {
+        display:flex;
+        flex-direction:column;
+        position:absolute;
+        top:60px;
+        left:624px;
+    }
+    .footer-cen-1 {
+        display:flex;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #2C2C2C;
+    }
+    .footer-cen-2 {
+        display:flex;
+        width: 235px;
+        height: 52px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: #6E6E73;
+        margin-top:8px;
+    }
+    .footer-cen-3 {
+        width: 73px;
+        height: 24px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #2C2C2C;
+        margin-top:54px;
+    }
+    .footer-cen-4 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: #6E6E73;
+        margin-top:4px;
+    }
+    .footer__right {
+        display:flex;
+        flex-direction:column;
+        position:relative;
+        top:60px;
+        left:983px;
+    }
+    .footer__right-1 {
+        display:flex;
+        width: 85px;
+        height: 24px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #2C2C2C;
+    }
+    .footer__right-2 {
+        display:flex;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: #6E6E73;
+        margin-top:8px;
+    }
+    .footer__right-3 {
+        display:flex;
+        width: 45px;
+        height: 24px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #2C2C2C;
+        margin-top:78px;
+    }
+    .footer__right-4 {
+        display:flex;
+        width: 235px;
+        height: 52px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: #6E6E73;
+        margin-top:8px;
+    }
+    .footer__right-5 {
+        display:flex;
+        position:absolute;
+        bottom:100px;
+        right: 21px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: #6E6E73;
+    }
+    </style>
+</head>
+<body>
+<div>
+    <div class="header">
+        <div class="header__logo">
+            <div class="header__logo1"><img src="Vector.jpg" alt=""></div>
+            <div class="header__logo2">
+                <div class="header__uranus">Uranus.</div>
+                <div class="header__sologan">Technology solution work</div>
+            </div>
+        </div>
+        <div class="header__work"><a style="color: #00A3FF;" href="">Our Work</a></div>
+        <div class="header__pricing"><a style="text-decoration-line: none; color: #000000" href="">Pricing</a></div>
+        <div class="header__business"><a style="text-decoration-line: none; color: #000000" href="">Business</a></div>
+        <div class="header__contact"><a style="text-decoration-line: none; color: #000000" href="">Contact</a></div>
+        <div class="header__job"><a style="text-decoration-line: none; color: #000000" href=""></a></div>
+        <button class="button"><a style="text-decoration-line: none; color: #FFFFFF" href="">Contact us</a></button>
+    </div>
+    <div class="main1">
+        <div class="main1__left">
+            <div class="main1__left-1">
+                <div class="main1__left-1--work">Work</div>
+                <div class="main1__left-1--img"><img src="Rectangle 83.jpg" alt=""></div>
+            </div>
+            <div class="main1__left-2">Make huge moves.</div>
+            <div class="main1__left-3">Creating a next-generation money-transfer service to transform the way money moves.</div>
+            <button class="main1__left-4"><a style="text-decoration-line: none; color: #00A3FF;" href="">Contact us</a></button>
+            <div class="main1__left-5">
+                <div class="main1__left-5-1"><img src="Ellipse 17.jpg" alt=""></div>
+                <div class="main1__left-5-2"><img src="Ellipse 17.jpg" alt=""></div>
+                <div class="main1__left-5-3"><img src="Ellipse 17.jpg" alt=""></div>
+            </div>
+        </div>
+        <div class="main1__cen"><img src="Rectangle 84.jpg" alt=""></div>
+        <div class="main1__right">
+            <div class="main1__right--1"><img src="Rectangle 81.jpg" alt=""></div>
+            <div class="main1__right--2"><img src="Rectangle 85.jpg" alt=""></div>
+        </div>
+    </div>
+    <div class="main2">
+        <div class="main2__img"><img src="Rectangle 83.jpg" alt=""></div>
+        <div class="main2__word">Work</div>
+    </div>
+    <div class="main3">
+        <div class="main3__cen"><img src="Rectangle 86.jpg" alt=""></div>
+        <div class="main3__right">
+            <div class="main3__right-1">Latest & greatest.</div>
+            <div class="main3__right-2">Bringing the world to the Tokyo Olympics.</div>
+        </div>
+    </div>
+    <div class="main4">
+        <div class="main4__left">
+            <div class="main4__left-1"><img src="Rectangle 88.jpg" alt=""></div>
+            <div class="main4__left-2">Amplifying audio.</div>
+            <div class="main4__left-3">Bringing the world to the Tokyo Olympics.</div>
+        </div>
+        <div class="main4__right">
+            <div class="main4__right-1"><img src="Rectangle 89.jpg" alt=""></div>
+            <div class="main4__right-2">Above & beyond.</div>
+            <div class="main4__right-3">Bringing the world to the Tokyo Olympics.</div>
+        </div>
+    </div>
+    <div class="main5">
+        <div class="main5__left"><img src="Rectangle 90.jpg" alt=""></div>
+        <div class="main5__right">
+            <div class="main5__right-1">Latest & greatest.</div>
+            <div class="main5__right-2">Creating a next-generation money-transfer service to transform the way money moves.</div>
+        </div>
+    </div>
+    <div class="main6">
+        <div class="main6__left">
+            <div class="main6__left-1">Latest & greatest.</div>
+            <div class="main6__left-2">Creating a next-generation money-transfer service to transform the way money moves.</div>
+        </div>
+        <div class="main6__right"><img src="Rectangle 91.jpg" alt=""></div>
+    </div>
+    <p class="main7">We Team.</p>
+    <p class="main8">Bringing the world to the Tokyo Olympics.</p>
+    <div class="main9">
+        <div class="main9__left">
+            <div class="main9__left-1"><img src="Ellipse 14.jpg" alt=""></div>
+            <div class="main9__left-2">Christana D.</div>
+            <div class="main9__left-3"><a style="text-decoration-line: none; color:#FFFFFF" href="">Leader</a></div>
+            <div class="main9__left-4">Creating a next-generation money-transfer service to transform the way money moves.</div>
+        </div>
+        <div class="main9__cen">
+            <div class="main9__cen-1"><img src="Ellipse 14.jpg" alt=""></div>
+            <div class="main9__cen-2">Christana D.</div>
+            <div class="main9__cen-3"><a style="text-decoration-line: none; color:#FFFFFF" href="">Leader</a></div>
+            <div class="main9__cen-4">Creating a next-generation money-transfer service to transform the way money moves.</div>
+        </div>
+        <div class="main9__right">
+            <div class="main9__right-1"><img src="Ellipse 14.jpg" alt=""></div>
+            <div class="main9__right-2">Christana D.</div>
+            <div class="main9__right-3"><a style="text-decoration-line: none; color:#FFFFFF" href="">Leader</a></div>
+            <div class="main9__right-4">Creating a next-generation money-transfer service to transform the way money moves.</div>
+        </div>
+    </div>
+    <p class="main10">Latest & greatest.</p>
+    <p class="main11">Bringing the world to the Tokyo Olympics.</p>
+    <div class="main12">
+        <div class="main12__table1">
+            <table width=100%>
+                <tr><td class="row1">Scott Sports.</td></tr>
+                <tr><td class="row">Nike Tech Book.</td></tr>
+                <tr><td class="row">Value Retail.</td></tr>
+                <tr><td class="row">Quicken Loans.</td></tr>
+            </table>
+        </div>
+        <div class="main12__table2">
+            <table width=100%>
+                <tr><td class="row1">Jeep emoji.</td></tr>
+                <tr><td class="row">Scott Sports.</td></tr>
+                <tr><td class="row">Getty.</td></tr>
+                <tr><td class="row">Gucci.</td></tr>
+            </table> 
+        </div>
+    </div>
+    <div class="main13">
+        <div class="main13__cen"><img src="Rectangle 93.jpg" alt=""></div>
+        <div class="main13__left">
+            <div class="main13__left-1">
+                <div class="main13__left-1-work">Work</div>
+                <div class="main13__left-1-img"><img src="Rectangle 83.jpg" alt=""></div>
+            </div>
+            <div class="main13__left-2">Be one</br>of us..</div>
+            <div class="main13__left-3">Bringing the world to the Tokyo Olympics.</div>
+        </div> 
+    </div>
+    <p class="main14">Have any</br>question?</p>
+    <div class="main15">
+        <table width=100%>
+            <tr><td class="main15-row1">Title Question 1</td></tr>
+            <tr><td class="main15-row2">Treasury (Include: 20% operation, 30% for liquidity and 50% cashBack)</td></tr>
+            <tr><td class="main15-row1">Title Question 2</td></tr>
+            <tr><td class="main15-row1">Title Question 3</td></tr>
+        </table>
+    </div>
+    <p class="main16">Yay! 🎉 </br>Join our community</p>
+    <p class="main17">Follow the community and update the latest news</br>from the project</p>
+    <p class="main18"><a style="text-decoration-line: none; color: #00A3FF;" href="">Join our community</a></p>
+    <div class="footer">
+        <div class="footer__left">
+            <div class="footer__left-1">Contact Us</div>
+            <div class="footer__left-2">
+                <div class="footer__left-2-logo"><img src="Vector.jpg" alt=""></div>
+                <div class="footer__left-2-uranus">
+                    <div class="footer__left-2-uranus-1">Uranus.</div>
+                    <div class="footer__left-2-uranus-2">Technology solution work</div>
+                </div>
+            </div>
+            <div class="footer__left-3">
+                <div class="footer__left-3-1"><img src="Vector-2.jpg" alt=""></div>
+                <div class="footer__left-3-2"><img src="Vector-3.jpg" alt=""></div>
+                <div class="footer__left-3-3"><img src="Vector-4.jpg" alt=""></div>
+            </div>
+            <div class="footer__left-4">© 2022 Uranus</div>
+        </div>
+        <div class="footer__cen">
+            <div class="footer-cen-1">Design Studio</div>
+            <div class="footer-cen-2">270 East 50 Street</br> (between Lexington and 5rd Avenues)</br> New York, NY 10021</div>
+            <div class="footer-cen-3">Toll-free:</div>
+            <div class="footer-cen-4">560-55NYSID</div>
+        </div>
+        <div class="footer__right">
+            <div class="footer__right-1">Telephone</div>
+            <div class="footer__right-2">215-002-1500</div>
+            <div class="footer__right-3">Email</div>
+            <div class="footer__right-4">info@design.com</div>
+            <div class="footer__right-5">Made with ☕ by Uranus</div>
+        </div>
+    </div>
+</div>
+    
+</body>
+</html>
